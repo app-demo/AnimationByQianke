@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_object_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转ObjectAnimator动画"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/btn_value_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转ValueAnimator动画"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转AnimatorSet"
+        android:textSize="11sp" />
+</LinearLayout>
